@@ -183,7 +183,7 @@ function FileUpload({ onFileSaved }) {
   // ── Render ────────────────────────────────────────────────────────────────
   return (
     <div className="card p-4 shadow-sm">
-      <h5 className="mb-3">Upload Data</h5>
+      <h5 className="mb-3">Upload Data (CSV or Json) </h5>
 
       {/* File Input */}
       <input
