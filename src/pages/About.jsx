@@ -1,7 +1,7 @@
 const howItWorks = [
   { step: "01", icon: "⬆️", title: "Upload Data", desc: "Upload your dataset in CSV or JSON format." },
   { step: "02", icon: "🏷️", title: "Label Data", desc: "Add labels manually or use AI-assisted suggestions." },
-  { step: "03", icon: "💾", title: "Save Progress", desc: "Your work is automatically saved in Firebase." },
+  { step: "03", icon: "💾", title: "Save Progress", desc: "Your work is automatically saved in Data Base." },
   { step: "04", icon: "▶️", title: "Continue Anytime", desc: "Resume your labeling whenever you want." },
   { step: "05", icon: "📥", title: "Export Dataset", desc: "Download final labeled data in CSV or JSON format." },
 ];
@@ -115,7 +115,7 @@ export default function About() {
             <div className="col-lg-7">
               <h2 style={{ fontSize: "1.8rem", fontWeight: 800, color: "#0f172a", marginBottom: 16 }}>🔐 Data Security</h2>
               <p style={{ color: "#475569", lineHeight: 1.8, marginBottom: 20 }}>
-                We use Firebase Authentication and Firestore to ensure your data is always safe and isolated.
+                We use Secure  Authentication and Secure DB  to ensure your data is always safe and isolated.
               </p>
               <ul style={{ listStyle: "none", padding: 0, display: "flex", flexDirection: "column", gap: 10 }}>
                 {["User-wise data isolation", "Secure cloud storage", "No data conflict between users", "Safe save and delete operations"].map((item) => (
